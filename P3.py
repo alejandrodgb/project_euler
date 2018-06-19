@@ -31,7 +31,7 @@ def is_prime(n):
 def largest_prime_factor(n):
     for i in range(n,0,-1):
         if n%i==0:
-            if is_prime(i)==True: 
+            if is_prime(i)==True:
                 return True
 
 print largest_prime_factor(600851475143)

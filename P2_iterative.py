@@ -4,7 +4,7 @@ import time
 
 def fib(n):
     fib_list=[]
-    a, b  = 0, 1 
+    a, b  = 0, 1
     while a<=n:
         fib_list.append(a)
         a,b=b,a+b
