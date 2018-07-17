@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import pyprimes
+#import pyprimes
 
 #print max(pyprimes.factors(600851475143)) #easy way - pyprimes module
 
@@ -35,7 +35,7 @@ def prime_list(counter):
         if is_prime(iterator)==True:
             prime_list.append(iterator)
         iterator+=1
-        if len(prime_list)%10==0: print len(prime_list)
+        if len(prime_list)%10==0: print(len(prime_list))
     return prime_list[counter-1], prime_list
 
-print prime_list(6) 
+print(prime_list(6))
